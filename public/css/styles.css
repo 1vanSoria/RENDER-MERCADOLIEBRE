@@ -1,0 +1,119 @@
+body {
+    background-color: #ebebeb;
+    font-family: "Roboto";
+}
+
+header {
+    background-color: #EAC926;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+
+
+
+.destacado {
+    text-align: center;
+}
+
+.final {
+    text-align: center;
+}
+
+
+
+main {
+
+    width: 90vw;
+    margin: 0 auto;
+}
+.main-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.camion {
+    color: #39b54a;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: solid 1px #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 20px;
+    position: absolute;
+    top: -15px;
+    transition: transform .7s;
+    }
+
+    .card:hover .camion{
+        transform: rotate(-90deg);
+    }
+
+
+
+
+
+footer h4 {
+    text-align: center;
+    color: #666;
+}
+
+.contenedor-info {
+    border-top: 1px solid #ebebeb;
+    background-color: #fff;
+padding: 15px;
+position: relative;
+}
+
+img{
+    width: 100%;
+}
+
+.card{
+    margin-bottom: 10px;
+    width: 100%;
+
+    }
+
+    .precio{
+        font-size: 18px;
+
+    }
+    
+    .descuento{
+        font-size: 16px;
+        color: #39b54a;
+    }
+    
+    .nombre-producto{
+        display: none;
+        font-size: 16px;
+        color:#666;
+        margin-top: 0;
+}
+@media ( min-width: 361px) {
+    .nombre-producto{
+        display: block;
+    
+    }
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+
+    .card{
+        width: 45%;
+    }
+} 
+
+
+
+
+
